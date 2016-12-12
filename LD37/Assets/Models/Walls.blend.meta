@@ -6,11 +6,38 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Door
+    100004: DoorFrame
+    100006: Walls
+    100008: Door_001
+    100010: DoorFrame_001
     400000: //RootNode
+    400002: Door
+    400004: DoorFrame
+    400006: Walls
+    400008: Door_001
+    400010: DoorFrame_001
     2300000: //RootNode
+    2300002: Door
+    2300004: DoorFrame
+    2300006: Walls
+    2300008: Door_001
+    2300010: DoorFrame_001
     3300000: //RootNode
+    3300002: Door
+    3300004: DoorFrame
+    3300006: Walls
+    3300008: Door_001
+    3300010: DoorFrame_001
     4300000: Plane
-    7400000: Default Take
+    4300002: Walls
+    4300004: DoorFrame
+    4300006: Door
+    4300008: DoorFrame_001
+    4300010: Door_001
+    7400000: SideDoor
+    7400002: FrontDoor
+    7400004: Normal
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -32,7 +59,127 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SideDoor
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DoorFrame
+        weight: 1
+      - path: DoorFrame/Door
+        weight: 1
+      - path: DoorFrame_001
+        weight: 1
+      - path: DoorFrame_001/Door_001
+        weight: 1
+      - path: Walls
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FrontDoor
+      takeName: Default Take
+      firstFrame: 199
+      lastFrame: 301
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DoorFrame
+        weight: 1
+      - path: DoorFrame/Door
+        weight: 1
+      - path: DoorFrame_001
+        weight: 1
+      - path: DoorFrame_001/Door_001
+        weight: 1
+      - path: Walls
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Normal
+      takeName: Default Take
+      firstFrame: 140
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DoorFrame
+        weight: 1
+      - path: DoorFrame/Door
+        weight: 1
+      - path: DoorFrame_001
+        weight: 1
+      - path: DoorFrame_001/Door_001
+        weight: 1
+      - path: Walls
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

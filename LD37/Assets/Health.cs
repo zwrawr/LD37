@@ -48,7 +48,7 @@ public class Health : MonoBehaviour {
                 scoreManager.addScore(startHealth);
             }
 
-            this.enabled=false;
+            Destroy(this.transform.gameObject);
 
             return 1;
         }
